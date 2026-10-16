@@ -22,11 +22,13 @@ nav a:hover{
     text-decoration: underline;
 }
 
-@media (max-width: 600px){
+@media (max-width: 1000px){
     header{
         background-color: red;
         color: black;
-        text-align: center;
-        padding: lem;
+    }
+
+    nav a{
+        display: block;
     }
 }
